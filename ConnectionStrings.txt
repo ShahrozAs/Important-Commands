@@ -1,0 +1,13 @@
+Database First;
+Scaffold-DbContext "server=MR-SHERRY\SQLEXPRESS; database=ECommerce; trusted_connection=true; trustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir "Models"
+
+Code First;
+server=MR-SHERRY\\SQLEXPRESS; database=hospitaldb; trusted_connection=true; Integrated Security=True; MultipleActiveResultSets=true; trustServerCertificate=True;
+
+
+Crystal Report
+string connectionString = @"Data Source=MR-SHERRY\SQLEXPRESS;Initial Catalog=KhalidRashid_2223;Integrated Security=True;TrustServerCertificate=True;";
+
+
+inConnectionString(Code First)
+Data Source=MR-SHERRY\\SQLEXPRESS;Initial Catalog=KhalidRashid_2223;Integrated Security=True;TrustServerCertificate=True;
