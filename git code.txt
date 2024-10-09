@@ -1,0 +1,81 @@
+S C:\Users\f3558\OneDrive\Desktop\React\ecommerce-app\frontend> git checkout -b main1 
+Switched to a new branch 'main1'
+PS C:\Users\f3558\OneDrive\Desktop\React\ecommerce-app\frontend> git checkout master 
+Switched to branch 'master'
+M       frontend/src/components/Footer/Footer.css
+M       frontend/src/components/NewCollections/NewCollections.css
+M       frontend/src/components/NewsLetter/NewsLetter.css
+M       frontend/src/components/Offers/Offers.css
+M       frontend/src/components/Popular/Popular.css
+M       frontend/src/pages/CSS/LoginSignup.css
+M       frontend/src/pages/CSS/ShopCategory.css
+Your branch is up to date with 'origin/master'.
+PS C:\Users\f3558\OneDrive\Desktop\React\ecommerce-app\frontend> git checkout  main1  
+Switched to branch 'main1'
+M       frontend/src/components/Footer/Footer.css
+M       frontend/src/components/NewCollections/NewCollections.css
+M       frontend/src/components/NewsLetter/NewsLetter.css
+M       frontend/src/components/Offers/Offers.css
+M       frontend/src/components/Popular/Popular.css
+M       frontend/src/pages/CSS/LoginSignup.css
+M       frontend/src/pages/CSS/ShopCategory.css
+PS C:\Users\f3558\OneDrive\Desktop\React\ecommerce-app\frontend>  git add .
+PS C:\Users\f3558\OneDrive\Desktop\React\ecommerce-app\frontend> git commit -m "Main1 Creation"
+[main1 d96f54c] Main1 Creation
+ 7 files changed, 476 insertions(+), 6 deletions(-)
+PS C:\Users\f3558\OneDrive\Desktop\React\ecommerce-app\frontend> git push 
+fatal: The current branch main1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main1
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Users\f3558\OneDrive\Desktop\React\ecommerce-app\frontend>   git push --set-upstream origin main1
+Enumerating objects: 37, done.
+Counting objects: 100% (37/37), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (19/19), 3.91 KiB | 363.00 KiB/s, done.
+Total 19 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (7/7), completed with 6 local objects.
+remote:
+remote: Create a pull request for 'main1' on GitHub by visiting:
+remote:      https://github.com/ShahrozAs/React-ecommerce-app/pull/new/main1
+remote:
+To https://github.com/ShahrozAs/React-ecommerce-app.git
+ * [new branch]      main1 -> main1
+branch 'main1' set up to track 'origin/main1'.
+PS C:\Users\f3558\OneDrive\Desktop\React\ecommerce-app\frontend> git checkout master 
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+PS C:\Users\f3558\OneDrive\Desktop\React\ecommerce-app\frontend> git checkout  main1  
+Switched to branch 'main1'
+Your branch is up to date with 'origin/main1'.
+PS C:\Users\f3558\OneDrive\Desktop\React\ecommerce-app\frontend> git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+PS C:\Users\f3558\OneDrive\Desktop\React\ecommerce-app\frontend> git merge master main1
+Updating 67418fc..d96f54c
+Fast-forward
+ frontend/src/components/Footer/Footer.css          |  27 ++++++
+ .../components/NewCollections/NewCollections.css   |  64 ++++++++++++-
+ frontend/src/components/NewsLetter/NewsLetter.css  | 103 +++++++++++++++++++++
+ frontend/src/components/Offers/Offers.css          |  90 ++++++++++++++++++
+ frontend/src/components/Popular/Popular.css        |  86 ++++++++++++++++-
+ frontend/src/pages/CSS/LoginSignup.css             |  55 +++++++++++
+ frontend/src/pages/CSS/ShopCategory.css            |  57 ++++++++++++
+ 7 files changed, 476 insertions(+), 6 deletions(-)
+PS C:\Users\f3558\OneDrive\Desktop\React\ecommerce-app\frontend> git add . 
+PS C:\Users\f3558\OneDrive\Desktop\React\ecommerce-app\frontend> git commit -m "master and main1 merge" 
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\f3558\OneDrive\Desktop\React\ecommerce-app\frontend> git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ShahrozAs/React-ecommerce-app.git
+   67418fc..d96f54c  master -> master
+PS C:\Users\f3558\OneDrive\Desktop\React\ecommerce-app\frontend> 
